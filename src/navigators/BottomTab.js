@@ -152,9 +152,7 @@ const styles = StyleSheet.create({
   btn: {
     flex: 1,
     alignItems: "center",
-    // borderWidth: 1,
-    // borderStyle: "solid",
-    // borderColor: "black",
+
   },
 
   QR_wrapper: {

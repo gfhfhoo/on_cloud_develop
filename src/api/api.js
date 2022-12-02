@@ -3,10 +3,11 @@
 import axios from "axios";
 import { getData } from "../storage/storage";
 
-export const schoolUrl = "http://10.0.2.2:8000";
+// export const schoolUrl = "http://10.0.2.2:8000";
+export const schoolUrl = "http://127.0.0.1:8000";
 export const baseUrl = "";
 
-const DEBUG_TOKEN = "1e11FztG2aC4M5eJ7GQwfArtBryEQWQh";
+const DEBUG_TOKEN = "3p33rmhfjSFtirQi6dwG7FfC7MTsCitE";
 
 const KEY_SCHOOL_TOKEN = "token";
 const KEY_BACKEND_TOKEN = "server-token";

@@ -1,4 +1,5 @@
 import React from "react";
+import { StatusBar } from "react-native";
 import { RootNavigator } from "./src/navigators/RootNavigator";
 import { DefaultTheme, NavigationContainer } from "@react-navigation/native";
 
@@ -21,8 +22,8 @@ const App = () => {
       subtitle: "使用扫一扫，可以扫描二维码",
       icon: "qr_scan", // Icons instructions below
       userInfo: {
-        url: "app://orders" // Provide any custom data like deep linking URL
-      }
+        url: "app://orders", // Provide any custom data like deep linking URL
+      },
     },
     {
       type: "Orders", // Required
@@ -30,13 +31,17 @@ const App = () => {
       subtitle: "使用校园卡快捷支付",
       icon: "student_card", // Icons instructions below
       userInfo: {
-        url: "app://orders" // Provide any custom data like deep linking URL
-      }
-    }
+        url: "app://orders", // Provide any custom data like deep linking URL
+      },
+    },
   ]);
 
   return (
     <NavigationContainer theme={theme}>
+      <StatusBar
+        backgroundColor={"#ffffff"}
+        barStyle={"dark-content"}
+      />
       <RootNavigator />
     </NavigationContainer>
   );

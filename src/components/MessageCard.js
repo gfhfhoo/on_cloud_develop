@@ -40,7 +40,17 @@ export class MessageCard extends React.Component {
           <MessageHeader />
           <View style={styles.content}>
             <Text style={{ color: "#111", fontSize: rem(14) }}>
-              梦天实验 梦天实验梦天实验 梦天实验梦天实验 梦天实验梦天实验 梦天实验梦天实验 梦天实验梦天实验 梦天实验
+              Hello
+              <Image
+                source={{ uri: "https://i0.hdslb.com/bfs/emote/3087d273a78ccaff4bb1e9972e2ba2a7583c9f11.png@100w_100h.webp" }}
+                style={{ width: 20, height: 20 }}
+              />
+              <Text style={{
+                color: "#0570b4",
+                fontSize: rem(14),
+                fontWeight: "bold",
+              }}>@gfhfhoo</Text>
+              Hello world
             </Text>
           </View>
           <View style={styles.func}>
@@ -55,7 +65,7 @@ export class MessageCard extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    marginHorizontal: "2%"
+    marginHorizontal: "2%",
   },
   content: {
     marginTop: 10,

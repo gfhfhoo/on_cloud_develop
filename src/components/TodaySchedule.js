@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
   start: {
     fontWeight: "bold",
     color: "#111",
-    fontSize: rem(17),
+    fontSize: rem(15),
     marginBottom: 5,
     // borderWidth: 1,
     // borderStyle: "solid",

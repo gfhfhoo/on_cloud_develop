@@ -359,6 +359,7 @@ const styles = StyleSheet.create({
   },
   honor_name: {
     marginTop: 5,
+    paddingHorizontal: 2,
     textAlign: "center",
     color: "#111",
     // fontWeight: "bold",
